@@ -12,10 +12,12 @@
 
   /* Components */
   require("./components/home/home");
+  require("./components/game/game");
 
   /* App Dependencies */
   angular.module("myApp", [
     "Home", // this is our component
+    "Game",
     "ngResource",
     "ngRoute"
   ]);

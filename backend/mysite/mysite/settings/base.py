@@ -1,7 +1,7 @@
 import environ
 
 project_root = environ.Path(__file__) - 3
-env = environ.Env(DEBUG=(bool, False),)
+env = environ.Env(DEBUG=(bool, False), )
 CURRENT_ENV = 'dev'
 env.read_env('./mysite/{}.env'.format(CURRENT_ENV))
 
@@ -90,3 +90,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+MEDIA_ROOT = env('MEDIA_ROOT')
+MEDIA_URL = "/media/"

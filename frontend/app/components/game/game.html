@@ -1,0 +1,22 @@
+<div ng-controller="GameListController as ctrl" ng-init="ctrl.init()">
+    <div>
+        <h1 style="text-align: center">.:: Games ::.</h1>
+        <!-- Test List -->
+        <ul style="padding: 0; text-align: center">
+            <li ng-repeat="game in ctrl.games" style="list-style: none;">
+                <div style="width: 250px; display: inline-block;margin-bottom: 20px;">
+                    <img ng-src="{{ game.image }}" alt="" style="width: 200px; height: 200px; border-radius: 50%;vertical-align: top;">
+                </div>
+                <div style="width: 60%; display: inline-block;vertical-align: top;text-align: left">
+                    <h3>
+                        {{ game.title }}
+                    </h3>
+                    <a style="text-decoration: none; color: dodgerblue" href="{{ game.link }}" target="_blank">&#128279; Link</a> </span>
+                    <p>
+                        {{ game.description }}</p>
+                    </p>
+                </div>
+
+            </li>
+    </div>
+</div>
