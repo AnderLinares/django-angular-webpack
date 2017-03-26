@@ -1,0 +1,6 @@
+*.pyc
+*/**/node_modules/
+*.env
+*/**/dist/
+*.db
+.idea

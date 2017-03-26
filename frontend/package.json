@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-resource": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.7.0",
+    "hogan.js": "^3.0.2",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.17.4",
+    "mustache-loader": "^0.4.1",
+    "webpack": "1.13.3"
+  }
+}
